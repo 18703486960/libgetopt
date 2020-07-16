@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/getopt.dir/main.cpp.o  -o getopt 

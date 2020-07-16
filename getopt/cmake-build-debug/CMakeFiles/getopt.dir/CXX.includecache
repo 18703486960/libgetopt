@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bys/project/bys/getopt/getopt.h
+unordered_map
+-
+string_view
+-
+memory
+-
+unistd.h
+-
+sstream
+-
+fstream
+-
+vector
+-
+algorithm
+-
+assert.h
+-
+cstring
+-
+
+/home/bys/project/bys/getopt/main.cpp
+iostream
+-
+getopt.h
+/home/bys/project/bys/getopt/getopt.h
+cstdio
+-
+cstring
+-
+
